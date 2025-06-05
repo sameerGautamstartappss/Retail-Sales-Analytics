@@ -1,23 +1,21 @@
-# Python cache and logs
+# Conda environment folders (optional, if created locally)
+env/
+*.env
+
+# Python artifacts
 __pycache__/
 *.py[cod]
 *.log
 
-# Virtual environment
-venv/
-*.env
-
-# Jupyter and notebooks
+# Jupyter
 .ipynb_checkpoints/
-*.ipynb
 
-# VSCode workspace
+# VSCode
 .vscode/
 
-# Data and outputs
-*.parquet
-*.csv
-
-# OS generated
+# System files
 .DS_Store
-Thumbs.db
+
+# Data
+*.csv
+*.parquet
