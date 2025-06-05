@@ -1,0 +1,23 @@
+# Python cache and logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environment
+venv/
+*.env
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# VSCode workspace
+.vscode/
+
+# Data and outputs
+*.parquet
+*.csv
+
+# OS generated
+.DS_Store
+Thumbs.db

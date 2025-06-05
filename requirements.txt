@@ -1,0 +1,6 @@
+# Core dependencies
+pyspark==3.5.1
+
+# Optional tools
+pandas==2.2.2
+jupyterlab==4.1.5
